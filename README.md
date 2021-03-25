@@ -1,1 +1,1 @@
-# random-game
+# Guitarband.github.io/random-game
