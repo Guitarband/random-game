@@ -7,5 +7,4 @@ function increment(amount) {
 
 function update(){
 	document.getElementById("total").innerHTML = "Total Increments	" + num.toString(total);
-	$(".increment-total").html(total);
 }
