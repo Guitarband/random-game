@@ -2,9 +2,9 @@ var total = 0;
 
 function increment(amount) {
 	total = total + parseint(amount);
-	update();
+	update(total);
 }
 
-function update(){
-	document.getElementById("total").innerHTML = "Total Increments	" + num.toString(total);
+function update(total){
+	document.getElementById("total").innerHTML = "Total Increments	1" + num.toString(total);
 }
