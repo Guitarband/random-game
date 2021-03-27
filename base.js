@@ -6,5 +6,6 @@ function increment(amount) {
 }
 
 function update(total){
+	$('.total').html("Total Increments	1" + num.toString(total));
 	document.getElementById("total").innerHTML = "Total Increments	1" + num.toString(total);
 }
