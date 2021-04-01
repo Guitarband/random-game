@@ -29,7 +29,10 @@ function Increment(){
 }
 
 function AutoIncrementer(){
-	autoincrementer1 = autoincrementer1 + 1;
-	var output = " Auto Incrementers:	" + autoincrementer1;
-	document.getElementById("autoIncrementers").innerHTML = output;
+	if(increments >= 10){
+		increments = increments - 10;
+		autoincrementer1 = autoincrementer1 + 1;
+		var output = " Auto Incrementers:	" + autoincrementer1;
+		document.getElementById("autoIncrementers").innerHTML = output;
+	}
 }
