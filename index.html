@@ -9,7 +9,7 @@
 	<body>
 		<script type="text/javascript">
 			function Increment(){
-				document.getElementByID("totalIncrements").innerHTML = "aaaaaaaaaaaaaa";
+				document.getElementById("totalIncrements").innerHTML = "aaaaaaaaaaaaaa";
 			}
 			function increment(){
 			    var radioButtons = document.getElementsByName("timezone");
@@ -22,7 +22,7 @@
 		<div class="container">
     		<div class="blurb">
 		<h1>Incrementals</h1>
- 		<input type="button" value="Increment by 1" onclick="increment()" id="increment1">
+ 		<input type="button" value="Increment by 1" onclick="Increment()" id="increment1">
     		</div><!-- /.blurb -->
 		</div><!-- /.container -->
 		<div id="totalIncrements">
