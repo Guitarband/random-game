@@ -18,6 +18,7 @@ var autoIncrementers_100 = 0;
 
 function StartUp(){
 	var output = "\nTotal Increments:	2";
+	document.getElementById("totalIncrements").innerHTML = output;
 	//document.getElementById("totalIncrements").innerHTML = output.appendChild(link);
 }
 StartUp();
