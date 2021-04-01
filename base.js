@@ -1,6 +1,6 @@
 var incrementAmount = 0;
 function StartUp(){
-	document.getElementById("totalIncrements").innerHTML = "Total Increments:	0";
+	document.getElementById("totalIncrements").innerHTML = "\nTotal Increments:	0";
 }
 StartUp();
 
