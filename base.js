@@ -31,7 +31,7 @@ function Increment(){
 }
 
 
-function autoIncrement(value){
+function autoIncrement(var value){
 	if(value == 1){
 		if(increments >= 10){
 			increments = increments - 10;
