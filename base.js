@@ -57,6 +57,8 @@ function forver(){
 	increments = increments + autoIncrementers_1 * 1;
 	increments = increments + autoIncrementers_10 * 1;
 	increments = increments + autoIncrementers_100 * 1;
+	var output = " Total Increments:	" + increments;
+	document.getElementById("totalIncrements").innerHTML = output;
 	setTimeout(1000);
 	forever();
 }
