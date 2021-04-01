@@ -9,14 +9,14 @@
 	<body>
 		<script>
 			function Increment(){
-				var Increment = document.getElementByID("totalIncrements");
 				document.getElementByID("totalIncrements").innerHTML = "aaaaaaaaaaaaaa";
 			}
+			Increment();
 		</script>
 		<div class="container">
     		<div class="blurb">
 		<h1>Incrementals</h1>
- 		<input type="button" value="Increment by 1" onclick="Increment()" id="increment1">
+ 		<input type="button" value="Increment by 1" onclick="Increment();" id="increment1">
     		</div><!-- /.blurb -->
 		</div><!-- /.container -->
 		<div>
@@ -24,6 +24,6 @@
 		</div>
 	</body>
 	<footer>
-		<p id="totalIncrements">Total Increments:	0</p>
+		<p id="totalIncrement">Total Increments:	0</p>
 	</footer>
 </html>
