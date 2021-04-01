@@ -26,6 +26,7 @@ StartUp();
 function Increment(){
 	increments = increments + 1;
 	Update();
+	forever();
 	
 	//document.getElementById('totalIncrements').appendChild(link);
 }
