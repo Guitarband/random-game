@@ -50,7 +50,7 @@ function Update(){
 
 function forever(){
 	increments = increments + (autoincrementer1 * 1);
-	setTimeout(forever(),1000);
+	setTimeout(1000);
 	Update();
 	forever();
 }
