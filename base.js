@@ -1,4 +1,4 @@
-var link = document.createElement('link');
+/*var link = document.createElement('link');
   
 // set the attributes for link element 
 link.rel = 'stylesheet'; 
@@ -7,7 +7,7 @@ link.type = 'text/css';
 
 link.href = 'main.css';
 
-
+*/
 
 
 var increments = 0;
@@ -25,7 +25,7 @@ StartUp();
 
 function Increment(){
 	increments = increments + 1;
-	var output = " Total Increments:	3" + increments;
+	var output = " Total Increments:	" + increments;
 	document.getElementById("totalIncrements").innerHTML = output;
 	//document.getElementById('totalIncrements').appendChild(link);
 }
@@ -78,4 +78,3 @@ function forver(){
 	forever();
 }
 
-forever();
