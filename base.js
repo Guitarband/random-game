@@ -18,7 +18,7 @@ var autoIncrementers_100 = 0;
 
 function StartUp(){
 	var output = "\nTotal Increments:	0";
-	document.getElementById("totalIncrements").innerHTML = output.appendChild(link);
+	//document.getElementById("totalIncrements").innerHTML = output.appendChild(link);
 }
 StartUp();
 
@@ -27,7 +27,7 @@ function Increment(){
 	increments = increments + 1;
 	var output = " Total Increments:	" + increments;
 	document.getElementById("totalIncrements").innerHTML = output;
-	document.getElementById('totalIncrements').appendChild(link);
+	//document.getElementById('totalIncrements').appendChild(link);
 }
 
 
@@ -37,7 +37,7 @@ function autoIncrement(var value){
 			increments = increments - 10;
 			autoIncrementers_1 = autoIncrementers_1 + 1;
 			
-			var output2 = " Total Increments:	" + increments;
+			var output2 = " Total Increments:	2" + increments;
 			document.getElementById("totalIncrements").innerHTML = output2;
 			
 			var output1 = " Auto Incrementers(1):	    " + autoIncrementers_1;
