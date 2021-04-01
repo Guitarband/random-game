@@ -36,31 +36,34 @@ function autoIncrement(var value){
 		if(increments >= 10){
 			increments = increments - 10;
 			autoIncrementers_1 = autoIncrementers_1 + 1;
-			var output1 = " Auto Incrementers(1):	    " + autoIincrementers_1;
+			var output1 = " Auto Incrementers(1):	    " + autoIncrementers_1;
 			document.getElementById("AutoIncrement1").innerHTML = output1;
 			var output2 = " Total Increments:	" + increments;
 			document.getElementById("totalIncrements").innerHTML = output2;
 		}
 	}
-	if(value == 10){
+	else if(value == 10){
 		if(increments >= 1000){
 			increments = increments - 10;
 			autoIncrementers_10 = autoIncrementers_10 + 1;
-			var output = " Auto Incrementers(10):	    " + autoIincrementers_10;
+			var output = " Auto Incrementers(10):	    " + autoIncrementers_10;
 			document.getElementById("AutoIncrement10").innerHTML = output;
 			var output = " Total Increments:	" + increments;
 			document.getElementById("totalIncrements").innerHTML = output;	
 		}
 	}
-	if(value == 100){
+	else if(value == 100){
 		if(increments >= 100000){
 			increments = increments - 10;
 			autoIncrementers_100 = autoIncrementers_100 + 1;
-			var output = " Auto Incrementers(100):	    " + autoIincrementers_100;
+			var output = " Auto Incrementers(100):	    " + autoIncrementers_100;
 			document.getElementById("AutoIncrement100").innerHTML = output;
 			var output = " Total Increments:	" + increments;
 			document.getElementById("totalIncrements").innerHTML = output;	
 		}
+	}
+	else{
+		increments = increments + 1 - 1;
 	}
 }
 
