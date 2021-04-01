@@ -31,10 +31,10 @@ function Increment(){
 	//document.getElementById('totalIncrements').appendChild(link);
 }
 
-function AutoIncrementer(){
+function AutoIncrementer(value){
 	if(increments >= 10){
 		increments = increments - 10;
-		autoincrementer1 = autoincrementer1 + 1;
+		autoincrementer1 = autoincrementer1 + value;
 		
 		Update();
 	}
