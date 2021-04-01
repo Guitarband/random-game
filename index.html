@@ -11,6 +11,13 @@
 			function Increment(){
 				document.getElementByID("totalIncrements").innerHTML = "aaaaaaaaaaaaaa";
 			}
+			function increment(){
+			    var radioButtons = document.getElementsByName("timezone");
+			    for(var i = 0; i < 5; i++){
+			    	var output = i;
+			    	document.getElementById("totalIncrements").innerHTML = output;
+			    }
+			}
 		</script>
 		<div class="container">
     		<div class="blurb">
