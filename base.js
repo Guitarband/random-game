@@ -38,6 +38,8 @@ function autoIncrement(value){
 			autoIncrementers_1 = autoIncrementers_1 + 1;
 			var output = " Auto Incrementers(1):	    " + autIincrementers_1;
 			document.getElementById("AutoIncrement1").innerHTML = output;
+			var output = " Total Increments:	" + increments;
+			document.getElementById("totalIncrements").innerHTML = output;
 		}
 	}
 	if(value == 10){
@@ -46,7 +48,8 @@ function autoIncrement(value){
 			autoIncrementers_10 = autoIncrementers_10 + 1;
 			var output = " Auto Incrementers(10):	    " + autIincrementers_10;
 			document.getElementById("AutoIncrement10").innerHTML = output;
-			
+			var output = " Total Increments:	" + increments;
+			document.getElementById("totalIncrements").innerHTML = output;	
 		}
 	}
 	if(value == 100){
@@ -55,6 +58,8 @@ function autoIncrement(value){
 			autoIncrementers_100 = autoIncrementers_100 + 1;
 			var output = " Auto Incrementers(100):	    " + autIincrementers_100;
 			document.getElementById("AutoIncrement100").innerHTML = output;
+			var output = " Total Increments:	" + increments;
+			document.getElementById("totalIncrements").innerHTML = output;	
 		}
 	}
 }
