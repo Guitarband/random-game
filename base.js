@@ -46,3 +46,10 @@ function Update(){
 	autoIncrementOutput = " Auto Incrementers:	" + autoincrementer1;
 	document.getElementById("autoIncrementers").innerHTML = autoIncrementOutput;
 }
+
+function forever(){
+	increments = increments + (autoincrementer1 * 1);
+	setTimeout(forever(),1000);
+	forever();
+}
+
