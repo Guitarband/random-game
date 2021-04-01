@@ -49,8 +49,12 @@ function Update(){
 }
 
 function forever(){
-	increments = increments + (autoincrementer1 * 1);
+	increments = increments + autoincrementer1;
+	incrementOutput = " Total Increments:	" + increments;
+	document.getElementById("totalIncrements").innerHTML = incrementOutput;
+	
 	setTimeout(1000);
+	
 	Update();
 	forever();
 }
