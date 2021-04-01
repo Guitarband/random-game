@@ -20,5 +20,6 @@ StartUp();
 function Increment(){
 	incrementAmount = incrementAmount + 1;
 	var output = " Total Increments:	" + incrementAmount;
-	document.getElementById("totalIncrements").innerHTML = output.appendChild(link);
+	document.getElementById("totalIncrements").innerHTML = output;
+	document.getElementById('totalIncrements').appendChild(link);
 }
