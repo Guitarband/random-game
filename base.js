@@ -12,7 +12,8 @@ link.href = 'main.css';
 
 var increments = 0;
 var autoincrementer1 = 0;
-var output;
+var incrementOutput;
+var autoIncrementOutput;
 
 function StartUp(){
 	output = "\nTotal Increments:	0";
@@ -39,9 +40,9 @@ function AutoIncrementer(){
 }
 
 function Update(){
-	output = " Total Increments:	" + increments;
-	document.getElementById("totalIncrements").innerHTML = output;
+	incrementOutput = " Total Increments:	" + increments;
+	document.getElementById("totalIncrements").innerHTML = incrementOutput;
 	
-	output = " Auto Incrementers:	" + autoincrementer1;
-		document.getElementById("autoIncrementers").innerHTML = output;
+	autoIncrementOutput = " Auto Incrementers:	" + autoincrementer1;
+	document.getElementById("autoIncrementers").innerHTML = autoIncrementOutput;
 }
