@@ -31,5 +31,5 @@ function Increment(){
 function AutoIncrementer(){
 	autoincrementer1 = autoincrementer1 + 1;
 	var output = " Auto Incrementers:	" + autoincrementer1;
-	document.getElementById("AutoIncrementers").innerHTML = output;
+	document.getElementById("autoIncrementers").innerHTML = output;
 }
