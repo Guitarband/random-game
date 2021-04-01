@@ -36,18 +36,25 @@ function autoIncrement(value){
 		if(increments >= 10){
 			increments = increments - 10;
 			autoIncrementers_1 = autoIncrementers_1 + 1;
+			var output = " Auto Incrementers(1):	    " + autIincrementers_1;
+			document.getElementById("AutoIncrement1").innerHTML = output;
 		}
 	}
 	if(value == 10){
 		if(increments >= 1000){
 			increments = increments - 10;
 			autoIncrementers_10 = autoIncrementers_10 + 1;
+			var output = " Auto Incrementers(10):	    " + autIincrementers_10;
+			document.getElementById("AutoIncrement10").innerHTML = output;
+			
 		}
 	}
 	if(value == 100){
 		if(increments >= 100000){
 			increments = increments - 10;
 			autoIncrementers_100 = autoIncrementers_100 + 1;
+			var output = " Auto Incrementers(100):	    " + autIincrementers_100;
+			document.getElementById("AutoIncrement100").innerHTML = output;
 		}
 	}
 }
