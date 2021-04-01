@@ -6,11 +6,17 @@
 		<!--link rel="stylesheet" type="text/css" href="main.css">
 		<script type="text/javascript" src="base.js" /-->
 	</head>
-	<body>		
+	<body>
+		<script>
+			function Increment(){
+				var Increment = document.getElementByID("totalIncrements");
+				document.getElementByID("totalIncrements").innerHTML = Increment;
+			}
+		</script>
 		<div class="container">
     		<div class="blurb">
 		<h1>Incrementals</h1>
- 		<input type="button" value="Increment by 1" onclick="increment(1)" id="increment1">
+ 		<input type="button" value="Increment by 1" onclick="Increment" id="increment1">
     		</div><!-- /.blurb -->
 		</div><!-- /.container -->
 	</body>
