@@ -36,10 +36,10 @@ function autoIncrement(var value){
 		if(increments >= 10){
 			increments = increments - 10;
 			autoIncrementers_1 = autoIncrementers_1 + 1;
-			var output = " Auto Incrementers(1):	    " + autoIincrementers_1;
-			document.getElementById("AutoIncrement1").innerHTML = output;
-			var output = " Total Increments:	" + increments;
-			document.getElementById("totalIncrements").innerHTML = output;
+			var output1 = " Auto Incrementers(1):	    " + autoIincrementers_1;
+			document.getElementById("AutoIncrement1").innerHTML = output1;
+			var output2 = " Total Increments:	" + increments;
+			document.getElementById("totalIncrements").innerHTML = output2;
 		}
 	}
 	if(value == 10){
