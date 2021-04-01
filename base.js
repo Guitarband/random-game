@@ -5,7 +5,7 @@ link.rel = 'stylesheet';
 
 link.type = 'text/css';
 
-link.href = 'style.css';
+link.href = 'main.css';
 
 
 
@@ -36,10 +36,12 @@ function autoIncrement(var value){
 		if(increments >= 10){
 			increments = increments - 10;
 			autoIncrementers_1 = autoIncrementers_1 + 1;
-			var output1 = " Auto Incrementers(1):	    " + autoIncrementers_1;
-			document.getElementById("AutoIncrement1").innerHTML = output1;
+			
 			var output2 = " Total Increments:	" + increments;
 			document.getElementById("totalIncrements").innerHTML = output2;
+			
+			var output1 = " Auto Incrementers(1):	    " + autoIncrementers_1;
+			document.getElementById("AutoIncrement1").innerHTML = output1;
 		}
 	}
 	else if(value == 10){
