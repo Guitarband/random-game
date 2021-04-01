@@ -17,7 +17,7 @@ var autoIncrementers_100 = 0;
 
 
 function StartUp(){
-	var output = "\nTotal Increments:	0";
+	var output = "\nTotal Increments:	2";
 	//document.getElementById("totalIncrements").innerHTML = output.appendChild(link);
 }
 StartUp();
@@ -25,7 +25,7 @@ StartUp();
 
 function Increment(){
 	increments = increments + 1;
-	var output = " Total Increments:	" + increments;
+	var output = " Total Increments:	3" + increments;
 	document.getElementById("totalIncrements").innerHTML = output;
 	//document.getElementById('totalIncrements').appendChild(link);
 }
@@ -35,13 +35,11 @@ function autoIncrement(var value){
 	if(value == 1){
 		if(increments >= 10){
 			increments = increments - 10;
-			autoIncrementers_1 = autoIncrementers_1 + 1;
-			
-			var output2 = " Total Increments:	2" + increments;
-			document.getElementById("totalIncrements").innerHTML = output2;
-			
+			autoIncrementers_1 = autoIncrementers_1 + 1;	
 			var output1 = " Auto Incrementers(1):	    " + autoIncrementers_1;
 			document.getElementById("AutoIncrement1").innerHTML = output1;
+			var output2 = " Total Increments:	2" + increments;
+			document.getElementById("totalIncrements").innerHTML = output2;
 		}
 	}
 	else if(value == 10){
