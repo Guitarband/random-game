@@ -8,15 +8,11 @@
 	</head>
 	<body>
 		<script type="text/javascript">
+			var incrementAmount = 0;
 			function Increment(){
-				document.getElementById("totalIncrements").innerHTML = "aaaaaaaaaaaaaa";
-			}
-			function increment(){
-			    var radioButtons = document.getElementsByName("timezone");
-			    for(var i = 0; i < 5; i++){
-			    	var output = i;
-			    	document.getElementById("totalIncrements").innerHTML = output;
-			    }
+				incrementAmount = incrementAmount + 1;
+				var output = " Total Increments:	" + incrementAmount;
+				document.getElementById("totalIncrements").innerHTML = output;
 			}
 		</script>
 		<div class="container">
@@ -30,6 +26,6 @@
 		</div>
 	</body>
 	<footer>
-		<p id="totalIncrement">Total Increments:e	0</p>
+		<p id="totalIncrement">Total Increments:	0</p>
 	</footer>
 </html>
